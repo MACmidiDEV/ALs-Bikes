@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-2 col-sm-3 text-center">
+            <a class="story-img" href="#">
+                <img src="/media/img/profile.jpg" class="img-circle">
+            </a>
+            <p><span class="boldtext">Offical:</span> AL's Bike</p>
+        </div>
+        <div class="col-sm-10 col-md-9">
+            {% if bike.image %}
+                <img class="img-bikepost" src="/media/{{ bike.image }}">
+            {% endif %}
+            <h3>{{ bike.title }}</h3>
+            <div class="row">
+                <div class="col-xs-9">
+                    <p>{{ bike.content }}</p>
+                    <p><span class="boldtext">Published on:</span> {{ bike.published_date }} </p>
+                    <p><span class="boldtext">Views:</span> {{bike.views}}</p>
+                    <p><span class="boldtext">Tag:</span> {{ bike.tag }}</p>
+                    <a href="{% url 'get_bikes' %}" class="btn btn-default">Back to Blog</a>
+                    <a href="{% url 'edit_bike' bike.id %}" class="btn btn-default">Edit bike</a>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
