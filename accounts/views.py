@@ -16,11 +16,11 @@ def myadmin(request):
 def logout(request):
     auth.logout(request)
     messages.success(request, "Sucessfully Logged OUT.")   
-    return redirect(reverse('strains'))  
+    return redirect(reverse('forsale_bikes'))  
 
 def login(request):
     if request.user.is_authenticated:
-        return redirect(reverse('strains'))
+        return redirect(reverse('forsale_bikes'))
     if request.method == "POST":
         login_form = UserLoginForm(request.POST)
         if login_form.is_valid():
@@ -29,7 +29,7 @@ def login(request):
         if user:
             auth.login(user=user, request=request)
             messages.success(request, "Sucessfully Logged IN.")         
-            return redirect(reverse('strains'))                           
+            return redirect(reverse('forsale_bikes'))                           
         else:
             login_form.add_error(None, "Username or Password Inncorrect")    
     else:
@@ -38,7 +38,7 @@ def login(request):
 
 def registration(request):
     if request.user.is_authenticated:
-        return redirect(reverse('strains'))
+        return redirect(reverse('forsale_bikes'))
     if request.method == "POST":
         registration_form = UserRegistrationForm(request.POST)
         if registration_form.is_valid():
@@ -48,7 +48,7 @@ def registration(request):
             if user:
                 auth.login(user=user, request=request)
                 messages.success(request, "Thank you for registering")
-                return redirect(reverse('strains'))
+                return redirect(reverse('forsale_bikes'))
             else:
                 messages.error(request, "Registration failed please try again later.")    
     registration_form = UserRegistrationForm()
