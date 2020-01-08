@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1821px" height="297px" viewBox="0 0 1821 297" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>AlsLogo-dark Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.7%" y="-4.2%" width="101.3%" height="108.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(0.804511,1.000000),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#417191" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <ellipse id="path-3" cx="135.5" cy="144.5" rx="66.5" ry="53.5"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AlsLogo-dark-Copy" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)">
+            <text id="AL’s-Bikes" font-family="HiraMaruProN-W4, Hiragino Maru Gothic ProN" font-size="250" font-weight="normal" fill="#FFFFFF">
+                <tspan x="533" y="239">AL’s Bikes</tspan>
+            </text>
+            <path d="M217.95077,289 L217.95077,289 C213.102067,288.954227 208.473979,287.364506 205.084796,284.579296 C201.695612,281.794087 199.823007,278.041578 199.878998,274.147411 L200.188857,253.002412 L133.819074,252.392306 C59.8133822,252.109524 0,203.848899 0,144.411526 C0,84.8619441 60.3225361,36.4227182 134.458783,36.4227182 L134.938565,36.4227182 C209.114793,36.4227182 268.66768,85.1589695 269.147461,144.724607 C269.580711,187.79835 313.149409,222.546384 366.78301,222.593432 L367.142846,222.593432 C395.759817,223.026929 419.898827,216.171261 436.881095,202.821173 C454.872904,188.668313 464.648453,167.499231 464.418558,143.34384 C464.008744,100.700624 419.329086,65.8282344 366.183283,65.8282344 L287.549083,65.8282344 C275.035917,65.828885 264.851864,57.7427636 264.709482,47.6936286 L264.239696,14.8923895 C264.170326,10.9913164 266.036997,7.22847167 269.427621,4.43454749 C272.818244,1.6406233 277.453992,0.0453777871 282.311468,0 L282.311468,0 C287.160164,-0.0439881582 291.83248,1.45996991 295.300394,4.18194794 C298.768308,6.90392596 300.747697,10.6209141 300.803049,14.5150869 L301.112908,36.4227182 L366.173287,36.4227182 C439.070098,36.4227182 500.272234,84.2919764 500.991906,142.894288 C501.381729,175.213864 487.677968,204.017302 462.499431,223.845755 C439.050107,242.309497 407.044679,252.047114 369.801635,252.047114 L366.623082,252.047114 C292.656758,251.974865 232.554122,203.623944 232.584108,144.210833 C232.584108,101.053843 189.673645,65.8442898 135.93811,65.8442898 L135.558282,65.8442898 C81.6928066,65.8442898 37.113103,100.427681 36.6033351,143.713115 C36.4011498,164.626069 46.5604908,184.745461 64.8426964,199.637882 C83.1249021,214.530302 108.029616,222.973583 134.068961,223.107206 L214.362404,223.837728 C220.42172,223.892761 226.20544,225.879451 230.44033,229.360445 C234.675221,232.84144 237.014114,237.531375 236.942124,242.397802 L236.472338,274.564852 C236.302529,282.652107 228.020901,289.105967 217.95077,289 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <g id="Oval" fill-rule="nonzero">
+                <use fill="url(#radialGradient-2)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" xlink:href="#path-3"></use>
+            </g>
+            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="367.5" cy="144.5" rx="66.5" ry="53.5"></ellipse>
+        </g>
+    </g>
+</svg>

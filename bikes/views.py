@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from .models import Bike
 from .forms import BikePostForm
+from bikes.models import Bike
 
 
 def get_bikes(request):
@@ -9,10 +10,23 @@ def get_bikes(request):
     Create a view that will return a list
     of Bikes that were published prior to 'now'
     and render them to the 'bikeposts.html' template
+    by most recent published date
     """
     bikes = Bike.objects.filter(published_date__lte=timezone.now()
         ).order_by('-published_date')
     return render(request, "bikeposts.html", {'bikes': bikes})
+    
+
+def forsale_bikes(request):
+    """
+    Create a view that will return a list
+    of Bikes that were published prior to 'now'
+    and render them to the 'bikeposts.html' template
+    by most recent published date
+    """
+    bikes = Bike.objects.filter(published_date__lte=timezone.now()
+        ).order_by('-published_date')
+    return render(request, "bikesales.html", {'bikes': bikes})
 
 
 def bike_detail(request, pk):
