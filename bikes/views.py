@@ -5,6 +5,9 @@ from .forms import BikePostForm
 from bikes.models import Bike
 
 
+def home(request):        
+    return render(request, "home/index.html")
+
 def get_bikes(request):
     """
     Create a view that will return a list
