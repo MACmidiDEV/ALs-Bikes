@@ -6,7 +6,7 @@ from bikes.models import Bike
 
 
 def home(request):        
-    return render(request, "home/index.html")
+    return render(request, "home")
 
 def get_bikes(request):
     """
