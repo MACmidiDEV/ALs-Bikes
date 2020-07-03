@@ -1,7 +1,7 @@
 # Miguel Camacho Stream Four Project: 
 # Fullstack Development Milestone Project - Code Institute 
 
-MileStone 4 Full Stack Software Development Course at Code Institute. Visit [GitHub](https://github.com/MACmidiDEV/e-comm) for entire build information. The main focus of this project was to create, develop and deploy a mongoDB database connected web application hosted on [HEROKU](https://github.com/MACmidiDEV/ALs-Bikes)
+MileStone 4 Full Stack Software Development Course at Code Institute. Visit [GitHub](https://github.com/MACmidiDEV/ALs-Bikes) for entire build information. The main focus of this project was to create, develop and deploy a mongoDB database connected web application hosted on [HEROKU](https://github.com/MACmidiDEV/ALs-Bikes)
 
 ## Purpose of This Project
 build a full-stack site based around business logic used to control a bike-shop and the owners dataset. The site has an authentication mechanism and provides were users have to create an account to be able to purchase a product. The site owner is able to make money by providing this a of services to and bikes for sale to the users. There is no way for a regular user to bypass the site's mechanisms and derive all of the value available to paid users without paying.
@@ -17,6 +17,9 @@ Ecommerence bikeshop written in django
 This site is hosted using GitHub, deployed directly from the master branch to Heroku.
 The current site in production is hosted via [HEROKU](https://github.com/MACmidiDEV/ALs-Bikes)
 The GitRepo can be found on [GitHub](https://github.com/MACmidiDEV/e-comm)
+
+## Wireframes
+- ![LittleLinks-DRAFT](https://raw.githubusercontent.com/MACmidiDEV/CInst-M3-Data-Centric-Development/master/LittleLinks/static/images/aDRAFT.jpg "Wireframe")
 
 ## Utilized Technologies
 ### Languages
